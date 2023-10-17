@@ -23,5 +23,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     menuToggle.addEventListener('click', function() {
         navList.classList.toggle('active');
-    });
+    })
+    
+    document.getElementById("mobile-menu").addEventListener("click", function() {
+        var navList = document.querySelector("nav ul");
+        if (navList.style.display === "block") {
+          navList.style.display = "none";
+        } else {
+          navList.style.display = "block";
+        }
+      });
+      ;
 });
