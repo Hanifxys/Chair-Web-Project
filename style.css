@@ -132,10 +132,10 @@ header {
 }
 
 .img-container img {
-  width: 400px;
+  width: 350px;
   height: 500px;
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 /* Popularity styles */
@@ -588,7 +588,7 @@ footer .about-company .container {
     height: 120vh;
     text-align: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   header .content-container {
@@ -607,7 +607,7 @@ footer .about-company .container {
 
 
   .popularity {
-    margin-top: 22rem;
+    margin-top: 2rem;
     text-align: center;
   }
   #why-us, #features {
@@ -617,19 +617,24 @@ footer .about-company .container {
 }
 
 @media only screen and (max-width: 600px) {
+
+  
   #why-us, #features {
     text-align: center;
     padding: 10px;
+    margin-left: -40px;
   }
 
   .primary-headings {
     width: 350px;
     font-size: 16px; 
+
   }
 
   .main-headings {
     font-size: 3rem;
     text-align: center;
+margin-right: 40px;
   }
 
   .img-container {
@@ -674,13 +679,14 @@ footer .about-company .container {
 
   .popularity div h1 {
     font-size: 2rem;
+    padding-top: 200px;
   }
 
   .popularity div {
     font-size: 0.9rem;
     text-align: center;
     margin: 0 auto;
-    margin-top: 7rem;
+    margin-top: 20px;
   }
 
 
@@ -729,27 +735,27 @@ footer .about-company .container {
 
   /* Buat gambar responsif */
   img {
-    max-width: 100%;
-    height: auto;
+    max-width: 450px;
+   
+  height: 200%;
   }
 
-  /* Pertimbangkan untuk menyederhanakan layout dengan menghilangkan beberapa elemen visual yang tidak diperlukan di layar kecil */
+  
   .some-visual-element {
     display: none;
   }
 
-  /* Pastikan tombol cukup besar untuk diklik */
   button, .btn {
     padding: 15px 25px;
     font-size: 1.2em;
   }
 
-  /* Tambahkan atau kurangi ukuran font agar tetap mudah dibaca di layar kecil */
+ 
   body {
     font-size: 1em;
   }
 
-  /* Optimalkan navigasi */
+ 
   nav ul {
     flex-direction: column;
   }
