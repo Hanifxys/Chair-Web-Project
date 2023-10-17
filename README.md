@@ -1,6 +1,3 @@
-Certainly! An improved `README` often includes a more structured layout with better visual formatting. Here's a revised and structured `README` for the SeatScape project:
-
----
 
 # SeatScape: Premium Chair Collection 🪑
 
